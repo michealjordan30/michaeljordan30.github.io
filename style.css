@@ -1,0 +1,61 @@
+/*background color */
+
+body {
+background-color: #FFDAB9;
+font-family: Luminari, fantasy; 
+}
+
+/*align heade and footer */
+h1 {
+text-align: center;
+}
+
+footer {
+text-align: center;
+position:  sticky;
+bottom:  0;
+
+}
+
+h2 {
+/*default is also left */
+text-align: left-justified;
+}
+
+#result_para{ 
+display: inline-block;
+
+}
+
+span{
+  display: inline-block;
+  width: 70px;
+}
+
+
+fieldset {
+  text-align: center;
+  border: 2px dashed black;
+}
+
+
+table {
+  border: 5px double black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+th {
+  border: 2px dotted black; 
+  height: 175px;
+  width:50px;
+  text-align: center;
+}
+
+td {
+text-align: center;
+}
+
+
